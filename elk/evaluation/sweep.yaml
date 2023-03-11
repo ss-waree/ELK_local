@@ -1,0 +1,58 @@
+runs:
+  - 
+    data:
+      model: "microsoft/deberta-v2-xxlarge-mnli" 
+      prompts:
+        dataset: "imdb"
+  -
+    data:
+      model: "t5-11b"
+      prompts:
+        dataset: "imdb"
+  -
+    data:
+      model: "allenai/unifiedqa-t5-11b"
+      prompts:
+        dataset: "imdb"
+  -
+    data:
+      model: "bigscience/T0pp"
+      prompts:
+        dataset: "imdb"
+  -
+    data:
+      model: "EleutherAI/gpt-j-6B"
+      prompts:
+        dataset: "imdb"
+  - 
+    data:
+      model: "roberta-large-mnli"
+      prompts:
+        dataset: "imdb"
+  # - 
+  #   model: "microsoft/deberta-v2-xxlarge-mnli" 
+  #   dataset: "super_glue boolq"
+  # - 
+  #   model: "microsoft/deberta-v2-xxlarge-mnli" 
+  #   dataset: "super_glue copa"
+  # - 
+  #   model: "microsoft/deberta-v2-xxlarge-mnli" 
+  #   dataset: "super_glue rte"
+  # - 
+  #   model: "microsoft/deberta-v2-xxlarge-mnli" 
+  #   dataset: "amazon_polarity"
+  # - 
+  #   model: "microsoft/deberta-v2-xxlarge-mnli" 
+  #   dataset: "ag_news"
+  # - 
+  #   model: "microsoft/deberta-v2-xxlarge-mnli" 
+  #   dataset: "dbpedia_14"
+  # - 
+  #   model: "microsoft/deberta-v2-xxlarge-mnli" 
+  #   dataset: "qnli"
+  # - 
+  #   model: "microsoft/deberta-v2-xxlarge-mnli" 
+  #   dataset: "piqa"
+  # - 
+  #   model: "microsoft/deberta-v2-xxlarge-mnli" 
+  #   dataset: "piqa"
