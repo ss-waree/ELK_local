@@ -106,7 +106,6 @@ def select_usable_devices(
         # Get free memory for each GPU
         num_tries = 0
         while True:
-            break()
             # check if at least `num_gpus` GPUs have at least `min_memory`
             # bytes of free memory
 
